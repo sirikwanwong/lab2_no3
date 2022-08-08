@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML From Exercise</title>
+</head>
+<body>
+    <style>
+        table,tr,td{
+            border: 1px solid black;
+        }
+    </style>
+    <h1>เข้าสู่ระบบ</h1>
+    <form action="lab2_no3login.html">
+    <table>
+        <tr>
+            <td>Username:</td>
+            <td>
+                <input 
+                    type="text" 
+                    name="username" 
+                    autofocus required>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>password:</td>
+            <td>
+                <input 
+                    type="password" 
+                    name="password" 
+                    required>
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="2">กรุณาพิมพ์ด้วยตามตัวเลขที่ปรากฏ:<br>1559<br>
+            <input
+                pattern="1559"
+                type="text" 
+                name="verify"  
+                required
+                title="กรุณากรอกให้ถูกต้อง"
+            >
+            </td>
+        </tr>
+    </table>
+    <input 
+        type="image" 
+        src="https://thumbs.dreamstime.com/b/login-icon-button-vector-illustration-isolated-white-background-126999474.jpg" 
+        width="100" 
+        height="90" 
+        alt="login"
+    >
+    </form>
+</body>
+</html>
